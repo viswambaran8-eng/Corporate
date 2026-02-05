@@ -9,9 +9,9 @@
 body {
   width: 100vw;
   background-color: black;
-  overflow-x: hidden;
   color: white;
   font-family: "lora", serif;
+  overflow-x: hidden;
 }
 
 button {
