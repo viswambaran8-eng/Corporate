@@ -1140,31 +1140,30 @@
 
     <!-- scrollll -->
 
-<script>
-  const progressCircle = document.querySelector(
-    ".scroll-indicator .progress",
-  );
-  const percentText = document.querySelector(".scroll-percent");
+    <script>
+      const progressCircle = document.querySelector(
+        ".scroll-indicator .progress",
+      );
+      const percentText = document.querySelector(".scroll-percent");
 
-  const circumference = 2 * Math.PI * 26; // r = 26
+      const circumference = 2 * Math.PI * 26; // r = 26
 
-  function updateScrollProgress() {
-    const scrollTop = window.scrollY;
-    const docHeight =
-      document.documentElement.scrollHeight - window.innerHeight;
+      function updateScrollProgress() {
+        const scrollTop = window.scrollY;
+        const docHeight =
+          document.documentElement.scrollHeight - window.innerHeight;
 
-    const scrollPercent = docHeight > 0 ? scrollTop / docHeight : 0;
-    const offset = circumference - scrollPercent * circumference;
+        const scrollPercent = docHeight > 0 ? scrollTop / docHeight : 0;
+        const offset = circumference - scrollPercent * circumference;
 
-    progressCircle.style.strokeDashoffset = offset;
+        progressCircle.style.strokeDashoffset = offset;
 
-    percentText.textContent = Math.round(scrollPercent * 100) + "%";
-  }
+        percentText.textContent = Math.round(scrollPercent * 100) + "%";
+      }
 
-  window.addEventListener("scroll", updateScrollProgress);
-  updateScrollProgress();
-</script>
-
+      window.addEventListener("scroll", updateScrollProgress);
+      updateScrollProgress();
+    </script>
 
     <script src="./script.js"></script>
     <script src="./swiper.js"></script>
