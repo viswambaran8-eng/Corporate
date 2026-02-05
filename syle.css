@@ -374,6 +374,7 @@ body.no-scroll {
 /* ------------------------------------------------------------ */
 
 main {
+  width: 100%;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(14px); /* frosted glass effect */
   -webkit-backdrop-filter: blur(15px); /* Safari support */
@@ -381,6 +382,7 @@ main {
 
 /* HERO */
 .hero {
+  width: 100%;
   position: relative;
   height: 100vh;
   display: flex;
@@ -634,6 +636,7 @@ main {
 
 .Structure {
   padding: 30px 5%;
+  overflow-x: hidden;
 }
 
 /* ================= HERO SECTION ================= */
@@ -1554,6 +1557,7 @@ main {
   padding: 60px 20px;
   background: #000; /* MUST be black */
   color: #e6f6ff;
+  overflow-x: hidden;
 }
 
 /* ================= HEADER ================= */
@@ -1741,6 +1745,7 @@ main {
   padding: 30px 20px;
   background: #000;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 .blog-section .section-header {
@@ -1885,6 +1890,7 @@ main {
   padding: 50px 20px;
   background: #000;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 .testimonials .section-header {
@@ -2041,6 +2047,7 @@ main {
   background: #000;
   padding: 60px 20px;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 .faq-container {
