@@ -1557,7 +1557,7 @@ main {
   padding: 60px 20px;
   background: #000; /* MUST be black */
   color: #e6f6ff;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /* ================= HEADER ================= */
